@@ -21,15 +21,28 @@ placeAddedHandler = placeName =>{
   });
 };
 
-  render() {
-   
+placeDeletedHandler = index =>{
+  this.setState(prevState=>{
+    return {
+    // Filter method filter the aaray ans return the new array
+    //The logic below will only return the places "not selected to be delete, will filter out the place with the index selected"
+      places: prevState.places.filter((place, i)=>{
+        return i !== index;
+      })
+    }
+  });
+}
 
+
+
+  render() {
+  
     return (
 
       <View style={styles.container}>
       
         <PlaceInput onPlaceAdded={this.placeAddedHandler}/>
-        <PlaceList places={this.state.places}/>
+        <PlaceList places={this.state.places} onItemDeleted={this.placeDeletedHandler}/>
        
       </View>
     );
