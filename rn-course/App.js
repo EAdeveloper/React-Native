@@ -16,18 +16,20 @@ placeAddedHandler = placeName =>{
  
   this.setState(prevState =>{
     return {
-      places: prevState.places.concat(placeName)
+      places: prevState.places.concat({
+        key: Math.random().toString(), 
+        value: placeName})
     }
   });
 };
 
-placeDeletedHandler = index =>{
+placeDeletedHandler = key =>{
   this.setState(prevState=>{
     return {
-    // Filter method filter the aaray ans return the new array
-    //The logic below will only return the places "not selected to be delete, will filter out the place with the index selected"
-      places: prevState.places.filter((place, i)=>{
-        return i !== index;
+    // Filter method filter the array and return the new array
+    //The logic below will only return the places "not selected to be delete, will filter out the place with the key selected"
+      places: prevState.places.filter(place=>{
+        return place.key !== key;
       })
     }
   });
