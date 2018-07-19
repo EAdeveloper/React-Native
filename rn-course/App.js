@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native';
 
 import PlaceInput from './src/components/PlaceInput/PlaceInput';
 import PlaceList from './src/components/PlaceList/PlaceList';
-import placeImage from './src/assets/beautifull.jpg';
+// import placeImage from './src/assets/beautifull.jpg';
 
 
 export default class App extends React.Component {
@@ -20,7 +20,9 @@ placeAddedHandler = placeName =>{
       places: prevState.places.concat({
         key: Math.random().toString(), 
         value: placeName,
-        image: placeImage
+        image:{
+          uri: 'https://facebook.github.io/react/logo-og.png'
+        }
       })
     }
   });
