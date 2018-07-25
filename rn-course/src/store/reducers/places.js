@@ -2,7 +2,7 @@ import {
     ADD_PLACE, 
     DELETE_PLACE, 
     SELECT_PLACE, 
-    DESELECTE_PLACE} from '../actions/actionTypes';
+    DESELECT_PLACE} from '../actions/actionTypes';
 
 
 
@@ -41,13 +41,12 @@ const reducer = (state = initialState, action)=>{
                     return place.key === action.placeKey;
                 })
             }
-        case DESELECTE_PLACE:
+        case DESELECT_PLACE:
             return{
                 ...state,
                 selectedPlace: null
             }
-            
-
+        
         
         default:
             return state;

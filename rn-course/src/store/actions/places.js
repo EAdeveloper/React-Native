@@ -2,7 +2,7 @@ import {
     ADD_PLACE, 
     DELETE_PLACE, 
     SELECT_PLACE, 
-    DESELECTE_PLACE} from './actionTypes';
+    DESELECT_PLACE} from './actionTypes';
 
 
 export const addPlace = (placeName)=>{
@@ -19,15 +19,16 @@ export const deletePlace= ()=>{
     };
 };
 
-export const selectePlace =(key)=>{
+export const selectPlace =(key)=>{
     return{
         type: SELECT_PLACE,
         placeKey: key
     };
 };
 
-export const deselectePlace=()=>{
+export const deselectPlace=()=>{
     return{
-        type: DESELECTE_PLACE
+        type: DESELECT_PLACE
+        
     };
 };
