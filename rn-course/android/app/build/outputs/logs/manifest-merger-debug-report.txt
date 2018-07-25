@@ -4,6 +4,7 @@ ADDED from C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app
 INJECTED from C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Sunshine\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\34ec4203b205e67ec97c8131b66db79c\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Sunshine\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\717305d245fcb65a6e96b8fc409cee78\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Sunshine\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\7079cc7ef6a103699189a4dd7ee3c7ce\AndroidManifest.xml:17:1-24:12
@@ -93,6 +94,8 @@ uses-sdk
 INJECTED from C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-vector-icons] C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Sunshine\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\34ec4203b205e67ec97c8131b66db79c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Sunshine\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\34ec4203b205e67ec97c8131b66db79c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] C:\Users\Sunshine\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.0.1.aar\717305d245fcb65a6e96b8fc409cee78\AndroidManifest.xml:20:5-43

@@ -6,23 +6,32 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.3"
-    timestamp="1532531204168"
+    timestamp="1532549133916"
     token="4997515116551275395"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="526" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="130" />
     <task
         name="verifier"
-        duration="0" />
+        duration="107" />
 
+    <artifact
+        location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
@@ -39,12 +48,6 @@
         location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
@@ -56,14 +59,20 @@
     <artifact
         location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1532531204168"
+        timestamp="1532549133916"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -80,12 +89,6 @@
             location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
@@ -97,9 +100,6 @@
         <artifact
             location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Sunshine\Documents\GitHub\React-Native\rn-course\android\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
